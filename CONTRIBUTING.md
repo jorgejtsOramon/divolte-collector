@@ -3,7 +3,7 @@ Contributing to Divolte Collector
 
 We value contributions from the community to Divolte Collector. If you wish to contribute to the actual code in the
 form of bug fixes, new features or other patches please bear in mind the following:
- 
+
  - **Changes should be submitted for review and discussion via pull requests.**
    If you aren't sure of whether a pull request will be accepted, please discuss it first.
  - **Code needs to conform to the same style as the project.**
@@ -17,7 +17,7 @@ form of bug fixes, new features or other patches please bear in mind the followi
 Divolte Collector is currently maintained by [GoDataDriven](https://www.godatadriven.com/).
 
 Contributor License Agreement (CLA)
------------------------------------
+----------------------------------
 
 Contributions to the project are always welcome. However we do need to ensure that the project community,
 users and maintainers are protected with respect to legal issues that can arise with contributions. As such we can
@@ -26,11 +26,11 @@ only accept contributions if they are your own original work and you license you
 
 In order to provide a sound legal basis for this we need you sign our CLA. These are modelled on Google's CLA
 and are intended to strike a balance between respecting and protecting your rights and ours. As such:
- 
+
   - All contributors must sign and submit to us the
     [*Individual* Contributor License Agreement](cla/divolte-cla-individual.pdf).
   - If you are employed or have an existing agreement in place transferring ownership of IP that you develop,
     you also need to have the [*Corporate* Contributor License Agreement](cla/divolte-cla-corporate.pdf)
-    completed and submitted to us.   
+    completed and submitted to us.
 
 These agreements can be scanned and submitted to us [via email](maito:divolte@godatadriven.com).
