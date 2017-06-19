@@ -1158,7 +1158,7 @@ var AUTO_PAGE_VIEW_EVENT = true;
    *         isServerPageView: boolean,
    *         signal: function(!string,Object=): string}}
    */
-  var divolte = {
+  var custom = {
     'partyId':          partyId,
     'sessionId':        sessionId,
     'pageViewId':       pageViewId,
@@ -1168,18 +1168,18 @@ var AUTO_PAGE_VIEW_EVENT = true;
     'signal':           signal
   };
 
-  if ("object" !== typeof window['divolte']) {
+  if ("object" !== typeof window['custom']) {
     // Expose divolte module.
     if (typeof window['define'] === "function" && window['define']['amd']) {
       window['define'](function () {
-        return divolte;
+        return custom;
       });
     } else if (typeof window['module'] !== 'undefined' && window['module']['exports']) {
-      window['module']['exports'] = divolte;
+      window['module']['exports'] = custom;
     } else {
-      window['divolte'] = divolte;
+      window['custom'] = custom;
     }
-    log("Module initialized.", divolte);
+    log("Module initialized.", custom);
 
     /* On load we always signal the 'pageView' event.
      * Depending on browser support we either signal right away, or
@@ -1224,5 +1224,5 @@ var AUTO_PAGE_VIEW_EVENT = true;
     warn("Divolte module already initialized; existing module left intact.");
   }
 
-  return divolte;
+  return custom;
 }));
